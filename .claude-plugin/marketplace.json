@@ -1,0 +1,69 @@
+{
+  "name": "upsun",
+  "owner": {
+    "name": "Upsun Team",
+    "email": "support@upsun.com"
+  },
+  "metadata": {
+    "description": "Official Upsun integration tools for Claude Code - CLI skills and MCP server for managing Upsun PaaS projects",
+    "homepage": "https://github.com/upsun/claude-marketplace",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/upsun/claude-marketplace"
+    },
+    "license": "Apache-2.0",
+    "keywords": [
+      "upsun",
+      "platform-sh",
+      "paas",
+      "deployment",
+      "devops",
+      "mcp",
+      "claude"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "upsun-skill",
+      "source": {
+        "source": "github",
+        "repo": "upsun/claude-skill"
+      },
+      "description": "Comprehensive Upsun CLI skill with 130+ commands for deployments, environments, backups, and resource management",
+      "version": "1.0.0",
+      "author": {
+        "name": "Guillaume Moigneu",
+        "email": "guillaume.moigneu@platform.sh"
+      },
+      "homepage": "https://github.com/upsun/claude-skill",
+      "license": "Apache-2.0",
+      "keywords": [
+        "upsun",
+        "cli",
+        "deployment",
+        "skill"
+      ]
+    },
+    {
+      "name": "upsun-mcp",
+      "source": {
+        "source": "github",
+        "repo": "upsun/upsun-mcp-server"
+      },
+      "description": "Upsun Model Context Protocol server providing direct API access to Upsun platform operations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Guillaume Moigneu",
+        "email": "guillaume.moigneu@platform.sh"
+      },
+      "homepage": "https://github.com/upsun/upsun-mcp-server",
+      "license": "Apache-2.0",
+      "keywords": [
+        "upsun",
+        "mcp",
+        "api",
+        "server"
+      ]
+    }
+  ]
+}
