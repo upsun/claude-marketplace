@@ -24,19 +24,19 @@
   },
   "plugins": [
     {
-      "name": "upsun-skill",
+      "name": "using-upsun",
       "source": {
         "source": "github",
-        "repo": "upsun/claude-skill"
+        "repo": "upsun/skills"
       },
-      "description": "Comprehensive Upsun CLI skill with 130+ commands for deployments, environments, backups, and resource management",
+      "description": "Comprehensive Upsun CLI skills with 130+ commands for deployments, environments, backups, and resource management",
       "version": "1.0.0",
       "author": {
         "name": "Guillaume Moigneu",
         "email": "guillaume.moigneu@platform.sh"
       },
-      "homepage": "https://github.com/upsun/claude-skill",
-      "license": "Apache-2.0",
+      "homepage": "https://github.com/upsun/skills",
+      "license": "MIT",
       "keywords": [
         "upsun",
         "cli",
@@ -57,7 +57,7 @@
         "email": "guillaume.moigneu@platform.sh"
       },
       "homepage": "https://github.com/upsun/upsun-mcp-server",
-      "license": "Apache-2.0",
+      "license": "MIT",
       "keywords": [
         "upsun",
         "mcp",
